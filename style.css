@@ -404,6 +404,7 @@ header .third_section button img {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 12rem;
 }
 .storyServices_heading {
   max-width: 45.5625rem;
@@ -416,6 +417,7 @@ header .third_section button img {
   line-height: 160%; /* 2.6rem */
 }
 .storyServices button {
+  margin-top: 3.3rem;
   width: 13.4375rem;
   height: 5rem;
   border-radius: 2.5rem;
@@ -429,7 +431,7 @@ header .third_section button img {
 .storyServices_card_container {
   display: grid;
   grid-template-columns: auto auto;
-  gap: 2.25remx;
+  gap: 2.25rem;
 }
 .storyServices_card {
   width: 17.3125rem;
@@ -461,5 +463,64 @@ header .third_section button img {
   font-weight: 600;
   margin-top: 1.06rem;
 }
-
 /* story & services ends here */
+
+/* footer starts here */
+footer {
+  margin-top: 11rem;
+  width: 100%;
+  padding: 4.4rem 8% 3rem 8%;
+  background: #e3ffe6;
+}
+.footer_first_section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer .first img {
+  width: 6.80581rem;
+  height: 2.5625rem;
+}
+
+footer .first p,
+.footer_items li {
+  margin-top: 2.2rem;
+  color: #555;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 150.523%; /* 2.25781rem */
+  cursor: pointer;
+}
+footer .first p {
+  max-width: 20rem;
+}
+.footer_heading {
+  color: #000;
+  font-size: 1.625rem;
+  font-weight: 600;
+}
+footer .footer_items {
+  list-style: none;
+}
+.footer_second_section {
+  margin-top: 6.19rem;
+  display: flex;
+  align-items: center;
+}
+footer .socialmedia_icons {
+  display: flex;
+  align-items: center;
+  gap: 1.19rem;
+}
+footer .socialmedia_icons img {
+  width: 3.625rem;
+  height: 3.5625rem;
+  cursor: pointer;
+}
+.footer_second_section span {
+  margin-left: 10.62rem;
+  color: #555;
+  font-size: 1.375rem;
+  font-weight: 500;
+}
+/* footer ends here */
